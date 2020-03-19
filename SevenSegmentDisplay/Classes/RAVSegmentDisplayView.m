@@ -7,7 +7,6 @@
 //
 
 #import "RAVSegmentDisplayView.h"
-#import "RAVSegmentIndicatorView.h"
 
 const NSTimeInterval RAVSegmentDisplayAnimationDuraion = 0.2;
 
