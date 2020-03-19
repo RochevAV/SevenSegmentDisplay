@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'SevenSegmentDisplay_Example' do
+  pod 'SevenSegmentDisplay', :path => '../'
+
+  target 'SevenSegmentDisplay_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

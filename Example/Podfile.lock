@@ -1,0 +1,23 @@
+PODS:
+  - SevenSegmentDisplay (0.1.0):
+    - SevenSegmentIndicator
+  - SevenSegmentIndicator (0.2.0)
+
+DEPENDENCIES:
+  - SevenSegmentDisplay (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SevenSegmentIndicator
+
+EXTERNAL SOURCES:
+  SevenSegmentDisplay:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SevenSegmentDisplay: afd1ba1cca27f5dd4849d538a7006ff7a513da0c
+  SevenSegmentIndicator: 49b3262ca5b2eb249fdd6551739cde39733622f5
+
+PODFILE CHECKSUM: 5bea92a2f14635b6f3b9a77b8c0fbdcf62d4928a
+
+COCOAPODS: 1.9.0
