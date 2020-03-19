@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "RAVSegmentIndicatorView.h"
+#import <SevenSegmentIndicator/RAVSegmentIndicatorView.h>
 
 IB_DESIGNABLE
 
