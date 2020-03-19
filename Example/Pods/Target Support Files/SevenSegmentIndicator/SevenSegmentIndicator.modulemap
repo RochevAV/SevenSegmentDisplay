@@ -1,0 +1,6 @@
+framework module SevenSegmentIndicator {
+  umbrella header "SevenSegmentIndicator-umbrella.h"
+
+  export *
+  module * { export * }
+}

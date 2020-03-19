@@ -1,0 +1,6 @@
+framework module SevenSegmentDisplay {
+  umbrella header "SevenSegmentDisplay-umbrella.h"
+
+  export *
+  module * { export * }
+}
