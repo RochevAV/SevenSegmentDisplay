@@ -7,48 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05A0CA5BABFB8FEA9DFF52EDE0C18976 /* Pods-SevenSegmentDisplay_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05645907123EDF75900A5F5072EF727D /* Pods-SevenSegmentDisplay_Example-dummy.m */; };
-		0C14CBC996771FF9F373FB6320BB45B9 /* RAVSegmentIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = BAF1C61AA242AAEA1ABE9216D3C34242 /* RAVSegmentIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1356722855ED2EE6318B40DA38EA6CE8 /* Pods-SevenSegmentDisplay_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AE8D263BA8BC40EB7DA7CFFCE009A15 /* Pods-SevenSegmentDisplay_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		230D72E5ED8A6E9497F5F61071A669CE /* SevenSegmentIndicator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54B39C261C0587048CFEE1DF184D2FA4 /* SevenSegmentIndicator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F4C59B78FD446F389EFFB9DC777186A /* SevenSegmentDisplay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0452D93D4E4CDE8FB64E8F6BCA11E860 /* SevenSegmentDisplay-dummy.m */; };
-		4300BF4C7BF0C396E6B7FFE718800484 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DA823F2C8A78CD27F1DBFF99470752 /* Foundation.framework */; };
-		523A70353E0CB313BF421DBE5F411264 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DA823F2C8A78CD27F1DBFF99470752 /* Foundation.framework */; };
-		5539265D63E797CD4DCC89EADD1CA7C1 /* Pods-SevenSegmentDisplay_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE2F962563D628CAD8B63A1450AAB40 /* Pods-SevenSegmentDisplay_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C805E5D415E8949FE713AAAF43B8008 /* Pods-SevenSegmentDisplay_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E414453F062F617E8F1FF4AFBD9A9A75 /* Pods-SevenSegmentDisplay_Tests-dummy.m */; };
-		96BCE064B397D4C57BF15BC3A7EAC806 /* RAVSegmentIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E17400E1708880DE955189452EEBD1E /* RAVSegmentIndicatorView.m */; };
-		A29B2077DBF9B90B779B732F9CB4E59F /* RAVSegmentDisplayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 12969F14A9E87D19738928CCF5D7236E /* RAVSegmentDisplayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE8493C0ADBCA11AFBF2DFC21CF52C51 /* SevenSegmentIndicator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FA950405383C6A3CED9C6209AD51BA3 /* SevenSegmentIndicator.framework */; };
-		B2FA8B094958F83A0CC7E0F97E547056 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DA823F2C8A78CD27F1DBFF99470752 /* Foundation.framework */; };
-		C917E6300931E42A998A2E1E8CDD22A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DA823F2C8A78CD27F1DBFF99470752 /* Foundation.framework */; };
-		E9804564F17575F5151C209F80F4E03E /* RAVSegmentDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B361DDA393E7AE336CC0DB5877A641 /* RAVSegmentDisplayView.m */; };
-		F25FAEAC6BF173D4B05EC6210E029C86 /* SevenSegmentDisplay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4E88F0D6C60AE5D9E1193E2E58E0CE0 /* SevenSegmentDisplay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F771DA5F435C3B667BCAB10C3A449C28 /* SevenSegmentIndicator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DF6EF8D7C3F1EDE7B041689B2BAB92 /* SevenSegmentIndicator-dummy.m */; };
+		0FB5E3F3CC7289E8A6A82E76E6F8B1AE /* Pods-SevenSegmentDisplay_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76680F5E1BF67018341B0D80CDFAA160 /* Pods-SevenSegmentDisplay_Example-dummy.m */; };
+		17FAEBE263F7320769C7CDF24266FC51 /* RAVSegmentDisplayView.h in Headers */ = {isa = PBXBuildFile; fileRef = FA98F7B9515C2955BFC30CE23B4DD29A /* RAVSegmentDisplayView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7D3055511515B72DBB0FB54C544463B1 /* Pods-SevenSegmentDisplay_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEA2DD8BA6CB6A44F39D7A6629BC602 /* Pods-SevenSegmentDisplay_Tests-dummy.m */; };
+		B4DF435F267BEC2128BD58209945C770 /* SevenSegmentIndicator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 741232CB58EAA851AB503A71C28B230B /* SevenSegmentIndicator-dummy.m */; };
+		BBD65682A75F3D3C6B7B379C0A4207F7 /* RAVSegmentIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF06587C24B2A528BE01ECC99F98D3D /* RAVSegmentIndicatorView.m */; };
+		C9DD3535BC6D037D64D40BE099774D47 /* RAVSegmentDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8F13B0E446972F916E4BDA9F397003 /* RAVSegmentDisplayView.m */; };
+		EA6EE7EA8B9A3224677553E552E151D6 /* SevenSegmentDisplay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6EF01B75198B5CA9A7496C07E486AE /* SevenSegmentDisplay-dummy.m */; };
+		FAB0DD9EB5C4AD406D21E1D993A78B98 /* RAVSegmentIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 56B7A9FC288009297A8633A29B329413 /* RAVSegmentIndicatorView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0E353BE50F16620972E4890BF148F798 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 097ECA05DB7959059A4593C8CA1F8DF6;
-			remoteInfo = SevenSegmentDisplay;
-		};
-		30B82CE5B9BABAD699CF1BE2CD506834 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2CAA4C65DE150A6BDDA164F4E90C4DCA;
-			remoteInfo = "Pods-SevenSegmentDisplay_Example";
-		};
-		61E19BCBF3C48EF88FBC0B787017AC0A /* PBXContainerItemProxy */ = {
+		377B6B6C2F37C4F7D38FC7BDC39984CF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F8DF3CD86423C70AA46D0D20BF76036F;
 			remoteInfo = SevenSegmentIndicator;
 		};
-		61F15C4C91786D8F169FE9D3472B80ED /* PBXContainerItemProxy */ = {
+		752FAC8DAD46430851C644BF70581C5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CAA4C65DE150A6BDDA164F4E90C4DCA;
+			remoteInfo = "Pods-SevenSegmentDisplay_Example";
+		};
+		840EB6F6A08446204E5B9127FEB77E89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 097ECA05DB7959059A4593C8CA1F8DF6;
+			remoteInfo = SevenSegmentDisplay;
+		};
+		DE6C3B5ACB26CF379AB579400531A027 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -58,206 +49,179 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0452D93D4E4CDE8FB64E8F6BCA11E860 /* SevenSegmentDisplay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SevenSegmentDisplay-dummy.m"; sourceTree = "<group>"; };
-		05645907123EDF75900A5F5072EF727D /* Pods-SevenSegmentDisplay_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SevenSegmentDisplay_Example-dummy.m"; sourceTree = "<group>"; };
-		0AE8D263BA8BC40EB7DA7CFFCE009A15 /* Pods-SevenSegmentDisplay_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SevenSegmentDisplay_Example-umbrella.h"; sourceTree = "<group>"; };
-		0EAF9212B5B8C6F8B2F7803EDB4104AC /* SevenSegmentIndicator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SevenSegmentIndicator.modulemap; sourceTree = "<group>"; };
-		11E5C75A531F2949B56A31ED2CC70E2F /* SevenSegmentDisplay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SevenSegmentDisplay.release.xcconfig; sourceTree = "<group>"; };
-		12969F14A9E87D19738928CCF5D7236E /* RAVSegmentDisplayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVSegmentDisplayView.h; path = SevenSegmentDisplay/Classes/RAVSegmentDisplayView.h; sourceTree = "<group>"; };
-		27B361DDA393E7AE336CC0DB5877A641 /* RAVSegmentDisplayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RAVSegmentDisplayView.m; path = SevenSegmentDisplay/Classes/RAVSegmentDisplayView.m; sourceTree = "<group>"; };
-		2808F765121468F7238AAE5AD4C5F3FC /* Pods-SevenSegmentDisplay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SevenSegmentDisplay_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2E8648044A99619369C0EA6EB510A553 /* Pods-SevenSegmentDisplay_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SevenSegmentDisplay_Tests.modulemap"; sourceTree = "<group>"; };
-		37251EB26A01740D42E79AD32B3C5F67 /* SevenSegmentDisplay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SevenSegmentDisplay.framework; path = SevenSegmentDisplay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		38AC9160F8BD162CF32AAEB052449F08 /* Pods-SevenSegmentDisplay_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SevenSegmentDisplay_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3DA82DC3FA889D873210BA56D60BE186 /* SevenSegmentDisplay-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SevenSegmentDisplay-Info.plist"; sourceTree = "<group>"; };
-		4061CDF47C9C7ACB336D4D38C284200E /* Pods-SevenSegmentDisplay_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SevenSegmentDisplay_Tests-Info.plist"; sourceTree = "<group>"; };
-		4AF9A671DF9FF9FC2248BEBB73AE2661 /* Pods_SevenSegmentDisplay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SevenSegmentDisplay_Example.framework; path = "Pods-SevenSegmentDisplay_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FA950405383C6A3CED9C6209AD51BA3 /* SevenSegmentIndicator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SevenSegmentIndicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		54B39C261C0587048CFEE1DF184D2FA4 /* SevenSegmentIndicator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SevenSegmentIndicator-umbrella.h"; sourceTree = "<group>"; };
-		594E068071BEC362E96CD3AA7F1A97A2 /* Pods-SevenSegmentDisplay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SevenSegmentDisplay_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		61491F0ECDE419C9BAEDCDFA4D5044EA /* SevenSegmentDisplay.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SevenSegmentDisplay.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		66DA823F2C8A78CD27F1DBFF99470752 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		68AC655DB7F6438A0F167578D31F0631 /* SevenSegmentDisplay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SevenSegmentDisplay.debug.xcconfig; sourceTree = "<group>"; };
-		6AD305BEC336269206AD24D40AC93F3F /* SevenSegmentDisplay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SevenSegmentDisplay-prefix.pch"; sourceTree = "<group>"; };
-		73C6DEE842CCFECD384861183B740B24 /* Pods-SevenSegmentDisplay_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SevenSegmentDisplay_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		7AE22BE707B79305058C8AB9CBA928B6 /* Pods-SevenSegmentDisplay_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SevenSegmentDisplay_Example-Info.plist"; sourceTree = "<group>"; };
-		80A7D4924505862BE092DAB1B03F277B /* Pods-SevenSegmentDisplay_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SevenSegmentDisplay_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8E17400E1708880DE955189452EEBD1E /* RAVSegmentIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RAVSegmentIndicatorView.m; path = SevenSegmentIndicator/Classes/RAVSegmentIndicatorView.m; sourceTree = "<group>"; };
-		908B7A9B73C771308F73B32EA47C6330 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		96DF6EF8D7C3F1EDE7B041689B2BAB92 /* SevenSegmentIndicator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SevenSegmentIndicator-dummy.m"; sourceTree = "<group>"; };
-		97D70CA9A862A3B7D09DD0C8D8208C0A /* Pods-SevenSegmentDisplay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SevenSegmentDisplay_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0BDF70C4E2817C5BCF1C0C81B72498A7 /* Pods-SevenSegmentDisplay_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SevenSegmentDisplay_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1288FB893F5F644E4D342ECFADE6C85C /* SevenSegmentIndicator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SevenSegmentIndicator-prefix.pch"; sourceTree = "<group>"; };
+		173554147B27153F8230BD58180B602A /* SevenSegmentIndicator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SevenSegmentIndicator.debug.xcconfig; sourceTree = "<group>"; };
+		2DF06587C24B2A528BE01ECC99F98D3D /* RAVSegmentIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RAVSegmentIndicatorView.m; path = SevenSegmentIndicator/Classes/RAVSegmentIndicatorView.m; sourceTree = "<group>"; };
+		2F6EF01B75198B5CA9A7496C07E486AE /* SevenSegmentDisplay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SevenSegmentDisplay-dummy.m"; sourceTree = "<group>"; };
+		37251EB26A01740D42E79AD32B3C5F67 /* libSevenSegmentDisplay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSevenSegmentDisplay.a; path = libSevenSegmentDisplay.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E2230FF59AD3CDC1DD659438B3704E /* SevenSegmentDisplay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SevenSegmentDisplay.debug.xcconfig; sourceTree = "<group>"; };
+		4409C9A4904E116AA3F6E832A0D7D220 /* SevenSegmentDisplay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SevenSegmentDisplay.release.xcconfig; sourceTree = "<group>"; };
+		4AF9A671DF9FF9FC2248BEBB73AE2661 /* libPods-SevenSegmentDisplay_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SevenSegmentDisplay_Example.a"; path = "libPods-SevenSegmentDisplay_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56B7A9FC288009297A8633A29B329413 /* RAVSegmentIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVSegmentIndicatorView.h; path = SevenSegmentIndicator/Classes/RAVSegmentIndicatorView.h; sourceTree = "<group>"; };
+		59E306972597196F8E336A0905006965 /* Pods-SevenSegmentDisplay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SevenSegmentDisplay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C8241580E2D946AE5664C5143549102 /* Pods-SevenSegmentDisplay_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SevenSegmentDisplay_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		67C1684AC7A57B3607B0FAA616FEE0C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		741232CB58EAA851AB503A71C28B230B /* SevenSegmentIndicator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SevenSegmentIndicator-dummy.m"; sourceTree = "<group>"; };
+		76680F5E1BF67018341B0D80CDFAA160 /* Pods-SevenSegmentDisplay_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SevenSegmentDisplay_Example-dummy.m"; sourceTree = "<group>"; };
+		8C0B048E438025348DAD6035F213627F /* Pods-SevenSegmentDisplay_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SevenSegmentDisplay_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9A8F13B0E446972F916E4BDA9F397003 /* RAVSegmentDisplayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RAVSegmentDisplayView.m; path = SevenSegmentDisplay/Classes/RAVSegmentDisplayView.m; sourceTree = "<group>"; };
+		9BEA2DD8BA6CB6A44F39D7A6629BC602 /* Pods-SevenSegmentDisplay_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SevenSegmentDisplay_Tests-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DE0DCF652972D500E869117C9A453DC /* Pods-SevenSegmentDisplay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SevenSegmentDisplay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9E1A656571B1B79E7739445250BDA57E /* SevenSegmentIndicator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SevenSegmentIndicator-prefix.pch"; sourceTree = "<group>"; };
-		9E4BD998F392F71EF36ED0E7BB89A703 /* Pods_SevenSegmentDisplay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SevenSegmentDisplay_Tests.framework; path = "Pods-SevenSegmentDisplay_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4E88F0D6C60AE5D9E1193E2E58E0CE0 /* SevenSegmentDisplay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SevenSegmentDisplay-umbrella.h"; sourceTree = "<group>"; };
-		A79C8648D71A5EA65D5B190DF5A1BBD9 /* Pods-SevenSegmentDisplay_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SevenSegmentDisplay_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BAF1C61AA242AAEA1ABE9216D3C34242 /* RAVSegmentIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVSegmentIndicatorView.h; path = SevenSegmentIndicator/Classes/RAVSegmentIndicatorView.h; sourceTree = "<group>"; };
-		C6C377657911DB78FC397D5DBD2B49A2 /* Pods-SevenSegmentDisplay_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SevenSegmentDisplay_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C77A2183C2F8CBF82DF6C53279B9B221 /* SevenSegmentIndicator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SevenSegmentIndicator-Info.plist"; sourceTree = "<group>"; };
-		CA622E6670783C25C9033BEDC9F67BF5 /* SevenSegmentDisplay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SevenSegmentDisplay.modulemap; sourceTree = "<group>"; };
-		CA6E17325F78E0AA87E6AD84C076E93D /* SevenSegmentIndicator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SevenSegmentIndicator.debug.xcconfig; sourceTree = "<group>"; };
-		CFD857CE31ABE71C2DAB845252BDF9B3 /* SevenSegmentIndicator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SevenSegmentIndicator.framework; path = SevenSegmentIndicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D62D61F2BA7CD29E81AE95306A7E9FB1 /* Pods-SevenSegmentDisplay_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SevenSegmentDisplay_Example.modulemap"; sourceTree = "<group>"; };
-		E414453F062F617E8F1FF4AFBD9A9A75 /* Pods-SevenSegmentDisplay_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SevenSegmentDisplay_Tests-dummy.m"; sourceTree = "<group>"; };
-		E706280784AF68F4385BB2BF5AE7593E /* SevenSegmentIndicator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SevenSegmentIndicator.release.xcconfig; sourceTree = "<group>"; };
-		E7A56C7EEC353A4EA5E05F06C71D5137 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		EEE2F962563D628CAD8B63A1450AAB40 /* Pods-SevenSegmentDisplay_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SevenSegmentDisplay_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9E4BD998F392F71EF36ED0E7BB89A703 /* libPods-SevenSegmentDisplay_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SevenSegmentDisplay_Tests.a"; path = "libPods-SevenSegmentDisplay_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20CFD943FCA0FE7F94739C33BFF4AE3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C98F4DDA939806A7A1FC3A213AEE7035 /* Pods-SevenSegmentDisplay_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SevenSegmentDisplay_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CFD857CE31ABE71C2DAB845252BDF9B3 /* libSevenSegmentIndicator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSevenSegmentIndicator.a; path = libSevenSegmentIndicator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1A68F81AC6C7FCECBC797F6B15C7211 /* Pods-SevenSegmentDisplay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SevenSegmentDisplay_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D67C1E534000C18E34778BECA5734794 /* SevenSegmentDisplay.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SevenSegmentDisplay.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DB4506F66685275F50B787209F1DE9A5 /* Pods-SevenSegmentDisplay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SevenSegmentDisplay_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E0D622ACE6041AE64F4861535B3CBE92 /* SevenSegmentIndicator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SevenSegmentIndicator.release.xcconfig; sourceTree = "<group>"; };
+		E6D418ACE42F3E8186DE4E13CA447FB8 /* Pods-SevenSegmentDisplay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SevenSegmentDisplay_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F57D676D449ABCA897D64288FA7BEAB3 /* SevenSegmentDisplay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SevenSegmentDisplay-prefix.pch"; sourceTree = "<group>"; };
+		FA98F7B9515C2955BFC30CE23B4DD29A /* RAVSegmentDisplayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RAVSegmentDisplayView.h; path = SevenSegmentDisplay/Classes/RAVSegmentDisplayView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2F381E5B806D8EB5D6E81D7876504C4F /* Frameworks */ = {
+		5A50600E719CA724CE982EB964C60406 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C917E6300931E42A998A2E1E8CDD22A7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4C12AC7306AB6D5B84F6DC94F533F724 /* Frameworks */ = {
+		7C2F8E31871FE6B60E886CA4D24D09D6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				523A70353E0CB313BF421DBE5F411264 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AFA4416842D7A229AF459D7E0198BAD1 /* Frameworks */ = {
+		C194E024A3BF6342CCCEB232F57222A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4300BF4C7BF0C396E6B7FFE718800484 /* Foundation.framework in Frameworks */,
-				AE8493C0ADBCA11AFBF2DFC21CF52C51 /* SevenSegmentIndicator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4C32D22D4CA8751C39E00EC57105981 /* Frameworks */ = {
+		D88860F18C4D09E2117C55D69A63D029 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2FA8B094958F83A0CC7E0F97E547056 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		178E94CF4EE9BEE65ECFE8DA57569884 /* Products */ = {
+		02BB5D06F546188C85251DE00417F4BF /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				4AF9A671DF9FF9FC2248BEBB73AE2661 /* Pods_SevenSegmentDisplay_Example.framework */,
-				9E4BD998F392F71EF36ED0E7BB89A703 /* Pods_SevenSegmentDisplay_Tests.framework */,
-				37251EB26A01740D42E79AD32B3C5F67 /* SevenSegmentDisplay.framework */,
-				CFD857CE31ABE71C2DAB845252BDF9B3 /* SevenSegmentIndicator.framework */,
+				67C1684AC7A57B3607B0FAA616FEE0C6 /* LICENSE */,
+				A20CFD943FCA0FE7F94739C33BFF4AE3 /* README.md */,
+				D67C1E534000C18E34778BECA5734794 /* SevenSegmentDisplay.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		18EEC2F828DBF957654CC0C9E6F808A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AF9A671DF9FF9FC2248BEBB73AE2661 /* libPods-SevenSegmentDisplay_Example.a */,
+				9E4BD998F392F71EF36ED0E7BB89A703 /* libPods-SevenSegmentDisplay_Tests.a */,
+				37251EB26A01740D42E79AD32B3C5F67 /* libSevenSegmentDisplay.a */,
+				CFD857CE31ABE71C2DAB845252BDF9B3 /* libSevenSegmentIndicator.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1B344C5A2C951F01656C00A202F0C0C9 /* Frameworks */ = {
+		29899ADEF1901D36841643AD383F2B8D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4FA950405383C6A3CED9C6209AD51BA3 /* SevenSegmentIndicator.framework */,
-				E36EA5C2C330BD19F1E08612F5A738A5 /* iOS */,
+				741232CB58EAA851AB503A71C28B230B /* SevenSegmentIndicator-dummy.m */,
+				1288FB893F5F644E4D342ECFADE6C85C /* SevenSegmentIndicator-prefix.pch */,
+				173554147B27153F8230BD58180B602A /* SevenSegmentIndicator.debug.xcconfig */,
+				E0D622ACE6041AE64F4861535B3CBE92 /* SevenSegmentIndicator.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/SevenSegmentIndicator";
 			sourceTree = "<group>";
 		};
-		1E95FB8AEF4E2A257A1EE5C1B7B442D4 /* Targets Support Files */ = {
+		55FB1526E5E384EBE390DEB33E0C90E0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				23AF57DC2DA31DA2ADEE7283AE2770FE /* Pods-SevenSegmentDisplay_Example */,
-				7FA865AD398B1C2E914E9C2D15BEEEC1 /* Pods-SevenSegmentDisplay_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		23AF57DC2DA31DA2ADEE7283AE2770FE /* Pods-SevenSegmentDisplay_Example */ = {
-			isa = PBXGroup;
-			children = (
-				D62D61F2BA7CD29E81AE95306A7E9FB1 /* Pods-SevenSegmentDisplay_Example.modulemap */,
-				C6C377657911DB78FC397D5DBD2B49A2 /* Pods-SevenSegmentDisplay_Example-acknowledgements.markdown */,
-				73C6DEE842CCFECD384861183B740B24 /* Pods-SevenSegmentDisplay_Example-acknowledgements.plist */,
-				05645907123EDF75900A5F5072EF727D /* Pods-SevenSegmentDisplay_Example-dummy.m */,
-				38AC9160F8BD162CF32AAEB052449F08 /* Pods-SevenSegmentDisplay_Example-frameworks.sh */,
-				7AE22BE707B79305058C8AB9CBA928B6 /* Pods-SevenSegmentDisplay_Example-Info.plist */,
-				0AE8D263BA8BC40EB7DA7CFFCE009A15 /* Pods-SevenSegmentDisplay_Example-umbrella.h */,
-				594E068071BEC362E96CD3AA7F1A97A2 /* Pods-SevenSegmentDisplay_Example.debug.xcconfig */,
-				2808F765121468F7238AAE5AD4C5F3FC /* Pods-SevenSegmentDisplay_Example.release.xcconfig */,
-			);
-			name = "Pods-SevenSegmentDisplay_Example";
-			path = "Target Support Files/Pods-SevenSegmentDisplay_Example";
-			sourceTree = "<group>";
-		};
-		3A85A254EE9023F2D079DB0405505E75 /* SevenSegmentDisplay */ = {
-			isa = PBXGroup;
-			children = (
-				12969F14A9E87D19738928CCF5D7236E /* RAVSegmentDisplayView.h */,
-				27B361DDA393E7AE336CC0DB5877A641 /* RAVSegmentDisplayView.m */,
-				A0C1839BB4A811007700D11B6FFEBE52 /* Pod */,
-				4E490ECBE41A467D035371C6C03DDB07 /* Support Files */,
-			);
-			name = SevenSegmentDisplay;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		4E490ECBE41A467D035371C6C03DDB07 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CA622E6670783C25C9033BEDC9F67BF5 /* SevenSegmentDisplay.modulemap */,
-				0452D93D4E4CDE8FB64E8F6BCA11E860 /* SevenSegmentDisplay-dummy.m */,
-				3DA82DC3FA889D873210BA56D60BE186 /* SevenSegmentDisplay-Info.plist */,
-				6AD305BEC336269206AD24D40AC93F3F /* SevenSegmentDisplay-prefix.pch */,
-				A4E88F0D6C60AE5D9E1193E2E58E0CE0 /* SevenSegmentDisplay-umbrella.h */,
-				68AC655DB7F6438A0F167578D31F0631 /* SevenSegmentDisplay.debug.xcconfig */,
-				11E5C75A531F2949B56A31ED2CC70E2F /* SevenSegmentDisplay.release.xcconfig */,
+				2F6EF01B75198B5CA9A7496C07E486AE /* SevenSegmentDisplay-dummy.m */,
+				F57D676D449ABCA897D64288FA7BEAB3 /* SevenSegmentDisplay-prefix.pch */,
+				38E2230FF59AD3CDC1DD659438B3704E /* SevenSegmentDisplay.debug.xcconfig */,
+				4409C9A4904E116AA3F6E832A0D7D220 /* SevenSegmentDisplay.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/SevenSegmentDisplay";
 			sourceTree = "<group>";
 		};
-		7FA865AD398B1C2E914E9C2D15BEEEC1 /* Pods-SevenSegmentDisplay_Tests */ = {
+		5E4850B88AB75681CB733EBD0DC508F7 /* Pods-SevenSegmentDisplay_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				2E8648044A99619369C0EA6EB510A553 /* Pods-SevenSegmentDisplay_Tests.modulemap */,
-				A79C8648D71A5EA65D5B190DF5A1BBD9 /* Pods-SevenSegmentDisplay_Tests-acknowledgements.markdown */,
-				80A7D4924505862BE092DAB1B03F277B /* Pods-SevenSegmentDisplay_Tests-acknowledgements.plist */,
-				E414453F062F617E8F1FF4AFBD9A9A75 /* Pods-SevenSegmentDisplay_Tests-dummy.m */,
-				4061CDF47C9C7ACB336D4D38C284200E /* Pods-SevenSegmentDisplay_Tests-Info.plist */,
-				EEE2F962563D628CAD8B63A1450AAB40 /* Pods-SevenSegmentDisplay_Tests-umbrella.h */,
-				9DE0DCF652972D500E869117C9A453DC /* Pods-SevenSegmentDisplay_Tests.debug.xcconfig */,
-				97D70CA9A862A3B7D09DD0C8D8208C0A /* Pods-SevenSegmentDisplay_Tests.release.xcconfig */,
+				C98F4DDA939806A7A1FC3A213AEE7035 /* Pods-SevenSegmentDisplay_Tests-acknowledgements.markdown */,
+				8C0B048E438025348DAD6035F213627F /* Pods-SevenSegmentDisplay_Tests-acknowledgements.plist */,
+				9BEA2DD8BA6CB6A44F39D7A6629BC602 /* Pods-SevenSegmentDisplay_Tests-dummy.m */,
+				59E306972597196F8E336A0905006965 /* Pods-SevenSegmentDisplay_Tests.debug.xcconfig */,
+				E6D418ACE42F3E8186DE4E13CA447FB8 /* Pods-SevenSegmentDisplay_Tests.release.xcconfig */,
 			);
 			name = "Pods-SevenSegmentDisplay_Tests";
 			path = "Target Support Files/Pods-SevenSegmentDisplay_Tests";
 			sourceTree = "<group>";
 		};
-		A0C1839BB4A811007700D11B6FFEBE52 /* Pod */ = {
+		759ADD261794FF788D81C253F0FB2BEA /* SevenSegmentDisplay */ = {
 			isa = PBXGroup;
 			children = (
-				E7A56C7EEC353A4EA5E05F06C71D5137 /* LICENSE */,
-				908B7A9B73C771308F73B32EA47C6330 /* README.md */,
-				61491F0ECDE419C9BAEDCDFA4D5044EA /* SevenSegmentDisplay.podspec */,
+				FA98F7B9515C2955BFC30CE23B4DD29A /* RAVSegmentDisplayView.h */,
+				9A8F13B0E446972F916E4BDA9F397003 /* RAVSegmentDisplayView.m */,
+				02BB5D06F546188C85251DE00417F4BF /* Pod */,
+				55FB1526E5E384EBE390DEB33E0C90E0 /* Support Files */,
 			);
-			name = Pod;
+			name = SevenSegmentDisplay;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7ECB02CB2864C8218FE0184A269DDBAF /* Pods-SevenSegmentDisplay_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5C8241580E2D946AE5664C5143549102 /* Pods-SevenSegmentDisplay_Example-acknowledgements.markdown */,
+				0BDF70C4E2817C5BCF1C0C81B72498A7 /* Pods-SevenSegmentDisplay_Example-acknowledgements.plist */,
+				76680F5E1BF67018341B0D80CDFAA160 /* Pods-SevenSegmentDisplay_Example-dummy.m */,
+				DB4506F66685275F50B787209F1DE9A5 /* Pods-SevenSegmentDisplay_Example.debug.xcconfig */,
+				D1A68F81AC6C7FCECBC797F6B15C7211 /* Pods-SevenSegmentDisplay_Example.release.xcconfig */,
+			);
+			name = "Pods-SevenSegmentDisplay_Example";
+			path = "Target Support Files/Pods-SevenSegmentDisplay_Example";
+			sourceTree = "<group>";
+		};
+		8218F5BB1C3B0D3284AFE377605B456E /* SevenSegmentIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				56B7A9FC288009297A8633A29B329413 /* RAVSegmentIndicatorView.h */,
+				2DF06587C24B2A528BE01ECC99F98D3D /* RAVSegmentIndicatorView.m */,
+				29899ADEF1901D36841643AD383F2B8D /* Support Files */,
+			);
+			name = SevenSegmentIndicator;
+			path = SevenSegmentIndicator;
 			sourceTree = "<group>";
 		};
 		A4FF544269B40BC3D0B20BE8FA2E52EC /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3A85A254EE9023F2D079DB0405505E75 /* SevenSegmentDisplay */,
+				759ADD261794FF788D81C253F0FB2BEA /* SevenSegmentDisplay */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		B2AA56018E1C5A0AB8A26FD745E2FBF9 /* SevenSegmentIndicator */ = {
+		CD5F15478963E28BF4E119029D2F57F6 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BAF1C61AA242AAEA1ABE9216D3C34242 /* RAVSegmentIndicatorView.h */,
-				8E17400E1708880DE955189452EEBD1E /* RAVSegmentIndicatorView.m */,
-				D0E58DF224762F0B0CF07B6D3C5078DA /* Support Files */,
+				7ECB02CB2864C8218FE0184A269DDBAF /* Pods-SevenSegmentDisplay_Example */,
+				5E4850B88AB75681CB733EBD0DC508F7 /* Pods-SevenSegmentDisplay_Tests */,
 			);
-			name = SevenSegmentIndicator;
-			path = SevenSegmentIndicator;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -265,40 +229,24 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				A4FF544269B40BC3D0B20BE8FA2E52EC /* Development Pods */,
-				1B344C5A2C951F01656C00A202F0C0C9 /* Frameworks */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				FBEE6BCB35EDECD3268038928841B883 /* Pods */,
-				178E94CF4EE9BEE65ECFE8DA57569884 /* Products */,
-				1E95FB8AEF4E2A257A1EE5C1B7B442D4 /* Targets Support Files */,
+				18EEC2F828DBF957654CC0C9E6F808A0 /* Products */,
+				CD5F15478963E28BF4E119029D2F57F6 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D0E58DF224762F0B0CF07B6D3C5078DA /* Support Files */ = {
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0EAF9212B5B8C6F8B2F7803EDB4104AC /* SevenSegmentIndicator.modulemap */,
-				96DF6EF8D7C3F1EDE7B041689B2BAB92 /* SevenSegmentIndicator-dummy.m */,
-				C77A2183C2F8CBF82DF6C53279B9B221 /* SevenSegmentIndicator-Info.plist */,
-				9E1A656571B1B79E7739445250BDA57E /* SevenSegmentIndicator-prefix.pch */,
-				54B39C261C0587048CFEE1DF184D2FA4 /* SevenSegmentIndicator-umbrella.h */,
-				CA6E17325F78E0AA87E6AD84C076E93D /* SevenSegmentIndicator.debug.xcconfig */,
-				E706280784AF68F4385BB2BF5AE7593E /* SevenSegmentIndicator.release.xcconfig */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SevenSegmentIndicator";
-			sourceTree = "<group>";
-		};
-		E36EA5C2C330BD19F1E08612F5A738A5 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				66DA823F2C8A78CD27F1DBFF99470752 /* Foundation.framework */,
-			);
-			name = iOS;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		FBEE6BCB35EDECD3268038928841B883 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B2AA56018E1C5A0AB8A26FD745E2FBF9 /* SevenSegmentIndicator */,
+				8218F5BB1C3B0D3284AFE377605B456E /* SevenSegmentIndicator */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -306,37 +254,33 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1C0F7B9AB8B3AACA68E74FA046FD97E0 /* Headers */ = {
+		380ACC74BAFF12AA2F643A06FF841891 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5539265D63E797CD4DCC89EADD1CA7C1 /* Pods-SevenSegmentDisplay_Tests-umbrella.h in Headers */,
+				17FAEBE263F7320769C7CDF24266FC51 /* RAVSegmentDisplayView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5AC1D36E1ECCB5D65DC1E5285D994927 /* Headers */ = {
+		D2C2A34439C4457B161D37D8CA0E350A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1356722855ED2EE6318B40DA38EA6CE8 /* Pods-SevenSegmentDisplay_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6A08A937D954475952C773A064571321 /* Headers */ = {
+		E119D64F5FAAB18C5DF8EE9FF4550E59 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C14CBC996771FF9F373FB6320BB45B9 /* RAVSegmentIndicatorView.h in Headers */,
-				230D72E5ED8A6E9497F5F61071A669CE /* SevenSegmentIndicator-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7CF6E2AA1B446E87A8AD7FCFFA4BF36F /* Headers */ = {
+		E1D181AAC92C5E1F289EC7798A8A1BF6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A29B2077DBF9B90B779B732F9CB4E59F /* RAVSegmentDisplayView.h in Headers */,
-				F25FAEAC6BF173D4B05EC6210E029C86 /* SevenSegmentDisplay-umbrella.h in Headers */,
+				FAB0DD9EB5C4AD406D21E1D993A78B98 /* RAVSegmentIndicatorView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,70 +289,66 @@
 /* Begin PBXNativeTarget section */
 		097ECA05DB7959059A4593C8CA1F8DF6 /* SevenSegmentDisplay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CFD9CBA6097C3666313EA3019CA7FE0A /* Build configuration list for PBXNativeTarget "SevenSegmentDisplay" */;
+			buildConfigurationList = 750870A4957F8431435E595D3F69487A /* Build configuration list for PBXNativeTarget "SevenSegmentDisplay" */;
 			buildPhases = (
-				7CF6E2AA1B446E87A8AD7FCFFA4BF36F /* Headers */,
-				4939BF765105BA03F14493BE5C9ADC3D /* Sources */,
-				AFA4416842D7A229AF459D7E0198BAD1 /* Frameworks */,
-				710EAB7BEA1A21AF09FB74225BEE6858 /* Resources */,
+				380ACC74BAFF12AA2F643A06FF841891 /* Headers */,
+				0E98AE1E6BD14FF1F1B5978F99E3BAA7 /* Sources */,
+				5A50600E719CA724CE982EB964C60406 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1312E614A1D389A05E1F5FDB8FBB0421 /* PBXTargetDependency */,
+				74E7637D86A04A72D3CB7C4E8050BCD7 /* PBXTargetDependency */,
 			);
 			name = SevenSegmentDisplay;
 			productName = SevenSegmentDisplay;
-			productReference = 37251EB26A01740D42E79AD32B3C5F67 /* SevenSegmentDisplay.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 37251EB26A01740D42E79AD32B3C5F67 /* libSevenSegmentDisplay.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 		2CAA4C65DE150A6BDDA164F4E90C4DCA /* Pods-SevenSegmentDisplay_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 21C27586674D8DF8EA84DD2CC0BCCFC1 /* Build configuration list for PBXNativeTarget "Pods-SevenSegmentDisplay_Example" */;
+			buildConfigurationList = 8B569BB511E863321CB6AEF93D39D852 /* Build configuration list for PBXNativeTarget "Pods-SevenSegmentDisplay_Example" */;
 			buildPhases = (
-				5AC1D36E1ECCB5D65DC1E5285D994927 /* Headers */,
-				272AA4EF79A3F085321F05320A33804F /* Sources */,
-				E4C32D22D4CA8751C39E00EC57105981 /* Frameworks */,
-				ACCE2A81E083C4750C1BD86EE95D8BFB /* Resources */,
+				E119D64F5FAAB18C5DF8EE9FF4550E59 /* Headers */,
+				E0E01BB9431E6E2A3F3F4566FAD94258 /* Sources */,
+				7C2F8E31871FE6B60E886CA4D24D09D6 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A59A708E7C93CF97935FBB5DF2C642AF /* PBXTargetDependency */,
-				F79CB5B2C86C619F63D4803AD282BEEB /* PBXTargetDependency */,
+				E4C95C0D2A44FAE85E1EB55D364F9C4A /* PBXTargetDependency */,
+				6A23B25212BAE453BBAE670771B29A2A /* PBXTargetDependency */,
 			);
 			name = "Pods-SevenSegmentDisplay_Example";
 			productName = "Pods-SevenSegmentDisplay_Example";
-			productReference = 4AF9A671DF9FF9FC2248BEBB73AE2661 /* Pods_SevenSegmentDisplay_Example.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 4AF9A671DF9FF9FC2248BEBB73AE2661 /* libPods-SevenSegmentDisplay_Example.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 		4FFA5169041E6DBA18E06784D828B0DB /* Pods-SevenSegmentDisplay_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 62ED94ADEDA8A236698164A486A104C2 /* Build configuration list for PBXNativeTarget "Pods-SevenSegmentDisplay_Tests" */;
+			buildConfigurationList = 6E1058918943A7A140A9969BD43B1D11 /* Build configuration list for PBXNativeTarget "Pods-SevenSegmentDisplay_Tests" */;
 			buildPhases = (
-				1C0F7B9AB8B3AACA68E74FA046FD97E0 /* Headers */,
-				907EEDF474682B007E14FD2A2981971C /* Sources */,
-				4C12AC7306AB6D5B84F6DC94F533F724 /* Frameworks */,
-				E0245A11D6270E4A025EF7AD3B63693D /* Resources */,
+				D2C2A34439C4457B161D37D8CA0E350A /* Headers */,
+				61020323B005C595A47654044B2A74F5 /* Sources */,
+				C194E024A3BF6342CCCEB232F57222A8 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				18557917E4358C9F570EC45200821CA5 /* PBXTargetDependency */,
+				D1C1C79985904934FC1D3D8C863B0F85 /* PBXTargetDependency */,
 			);
 			name = "Pods-SevenSegmentDisplay_Tests";
 			productName = "Pods-SevenSegmentDisplay_Tests";
-			productReference = 9E4BD998F392F71EF36ED0E7BB89A703 /* Pods_SevenSegmentDisplay_Tests.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 9E4BD998F392F71EF36ED0E7BB89A703 /* libPods-SevenSegmentDisplay_Tests.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 		F8DF3CD86423C70AA46D0D20BF76036F /* SevenSegmentIndicator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F817224E4D3AD448AE26EBF85144A20A /* Build configuration list for PBXNativeTarget "SevenSegmentIndicator" */;
+			buildConfigurationList = FDDF14BB5411F1C6DE0D0D0C1C7AB4E4 /* Build configuration list for PBXNativeTarget "SevenSegmentIndicator" */;
 			buildPhases = (
-				6A08A937D954475952C773A064571321 /* Headers */,
-				2A497743F737150ACF7399780FD7C362 /* Sources */,
-				2F381E5B806D8EB5D6E81D7876504C4F /* Frameworks */,
-				697627CD75DE72B5AEEEC991B544346F /* Resources */,
+				E1D181AAC92C5E1F289EC7798A8A1BF6 /* Headers */,
+				0E4503740D8D1A9029D2334D96164977 /* Sources */,
+				D88860F18C4D09E2117C55D69A63D029 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -416,8 +356,8 @@
 			);
 			name = SevenSegmentIndicator;
 			productName = SevenSegmentIndicator;
-			productReference = CFD857CE31ABE71C2DAB845252BDF9B3 /* SevenSegmentIndicator.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = CFD857CE31ABE71C2DAB845252BDF9B3 /* libSevenSegmentIndicator.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -437,7 +377,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 178E94CF4EE9BEE65ECFE8DA57569884 /* Products */;
+			productRefGroup = 18EEC2F828DBF957654CC0C9E6F808A0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -449,197 +389,119 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		697627CD75DE72B5AEEEC991B544346F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		710EAB7BEA1A21AF09FB74225BEE6858 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ACCE2A81E083C4750C1BD86EE95D8BFB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E0245A11D6270E4A025EF7AD3B63693D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		272AA4EF79A3F085321F05320A33804F /* Sources */ = {
+		0E4503740D8D1A9029D2334D96164977 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05A0CA5BABFB8FEA9DFF52EDE0C18976 /* Pods-SevenSegmentDisplay_Example-dummy.m in Sources */,
+				BBD65682A75F3D3C6B7B379C0A4207F7 /* RAVSegmentIndicatorView.m in Sources */,
+				B4DF435F267BEC2128BD58209945C770 /* SevenSegmentIndicator-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A497743F737150ACF7399780FD7C362 /* Sources */ = {
+		0E98AE1E6BD14FF1F1B5978F99E3BAA7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96BCE064B397D4C57BF15BC3A7EAC806 /* RAVSegmentIndicatorView.m in Sources */,
-				F771DA5F435C3B667BCAB10C3A449C28 /* SevenSegmentIndicator-dummy.m in Sources */,
+				C9DD3535BC6D037D64D40BE099774D47 /* RAVSegmentDisplayView.m in Sources */,
+				EA6EE7EA8B9A3224677553E552E151D6 /* SevenSegmentDisplay-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4939BF765105BA03F14493BE5C9ADC3D /* Sources */ = {
+		61020323B005C595A47654044B2A74F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9804564F17575F5151C209F80F4E03E /* RAVSegmentDisplayView.m in Sources */,
-				2F4C59B78FD446F389EFFB9DC777186A /* SevenSegmentDisplay-dummy.m in Sources */,
+				7D3055511515B72DBB0FB54C544463B1 /* Pods-SevenSegmentDisplay_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		907EEDF474682B007E14FD2A2981971C /* Sources */ = {
+		E0E01BB9431E6E2A3F3F4566FAD94258 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C805E5D415E8949FE713AAAF43B8008 /* Pods-SevenSegmentDisplay_Tests-dummy.m in Sources */,
+				0FB5E3F3CC7289E8A6A82E76E6F8B1AE /* Pods-SevenSegmentDisplay_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1312E614A1D389A05E1F5FDB8FBB0421 /* PBXTargetDependency */ = {
+		6A23B25212BAE453BBAE670771B29A2A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SevenSegmentIndicator;
 			target = F8DF3CD86423C70AA46D0D20BF76036F /* SevenSegmentIndicator */;
-			targetProxy = 61E19BCBF3C48EF88FBC0B787017AC0A /* PBXContainerItemProxy */;
+			targetProxy = 377B6B6C2F37C4F7D38FC7BDC39984CF /* PBXContainerItemProxy */;
 		};
-		18557917E4358C9F570EC45200821CA5 /* PBXTargetDependency */ = {
+		74E7637D86A04A72D3CB7C4E8050BCD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SevenSegmentIndicator;
+			target = F8DF3CD86423C70AA46D0D20BF76036F /* SevenSegmentIndicator */;
+			targetProxy = DE6C3B5ACB26CF379AB579400531A027 /* PBXContainerItemProxy */;
+		};
+		D1C1C79985904934FC1D3D8C863B0F85 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-SevenSegmentDisplay_Example";
 			target = 2CAA4C65DE150A6BDDA164F4E90C4DCA /* Pods-SevenSegmentDisplay_Example */;
-			targetProxy = 30B82CE5B9BABAD699CF1BE2CD506834 /* PBXContainerItemProxy */;
+			targetProxy = 752FAC8DAD46430851C644BF70581C5D /* PBXContainerItemProxy */;
 		};
-		A59A708E7C93CF97935FBB5DF2C642AF /* PBXTargetDependency */ = {
+		E4C95C0D2A44FAE85E1EB55D364F9C4A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SevenSegmentDisplay;
 			target = 097ECA05DB7959059A4593C8CA1F8DF6 /* SevenSegmentDisplay */;
-			targetProxy = 0E353BE50F16620972E4890BF148F798 /* PBXContainerItemProxy */;
-		};
-		F79CB5B2C86C619F63D4803AD282BEEB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SevenSegmentIndicator;
-			target = F8DF3CD86423C70AA46D0D20BF76036F /* SevenSegmentIndicator */;
-			targetProxy = 61F15C4C91786D8F169FE9D3472B80ED /* PBXContainerItemProxy */;
+			targetProxy = 840EB6F6A08446204E5B9127FEB77E89 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		33CCF52726FDDB85AD72F6E592F0A9D5 /* Debug */ = {
+		18FE180FAD477E2B144B62941765C5F7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA6E17325F78E0AA87E6AD84C076E93D /* SevenSegmentIndicator.debug.xcconfig */;
+			baseConfigurationReference = 4409C9A4904E116AA3F6E832A0D7D220 /* SevenSegmentDisplay.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SevenSegmentIndicator/SevenSegmentIndicator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SevenSegmentIndicator/SevenSegmentIndicator-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				GCC_PREFIX_HEADER = "Target Support Files/SevenSegmentDisplay/SevenSegmentDisplay-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SevenSegmentIndicator/SevenSegmentIndicator.modulemap";
-				PRODUCT_MODULE_NAME = SevenSegmentIndicator;
-				PRODUCT_NAME = SevenSegmentIndicator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3A407BCB40D804113E57B9DAD95D8626 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 594E068071BEC362E96CD3AA7F1A97A2 /* Pods-SevenSegmentDisplay_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SevenSegmentDisplay_Example/Pods-SevenSegmentDisplay_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SevenSegmentDisplay_Example/Pods-SevenSegmentDisplay_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3C32B83BDFDFBA50F63B76EEBE2284FD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11E5C75A531F2949B56A31ED2CC70E2F /* SevenSegmentDisplay.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SevenSegmentDisplay/SevenSegmentDisplay-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SevenSegmentDisplay/SevenSegmentDisplay-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SevenSegmentDisplay/SevenSegmentDisplay.modulemap";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_MODULE_NAME = SevenSegmentDisplay;
 				PRODUCT_NAME = SevenSegmentDisplay;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		47FCD2C2F214C83F2AAB716903933959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38E2230FF59AD3CDC1DD659438B3704E /* SevenSegmentDisplay.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SevenSegmentDisplay/SevenSegmentDisplay-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SevenSegmentDisplay;
+				PRODUCT_NAME = SevenSegmentDisplay;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -701,99 +563,47 @@
 			};
 			name = Release;
 		};
-		4C04D2234EE2E037407560547AC267C8 /* Debug */ = {
+		5B1FB330269753E2BBD9EB4F994CE98C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DE0DCF652972D500E869117C9A453DC /* Pods-SevenSegmentDisplay_Tests.debug.xcconfig */;
+			baseConfigurationReference = D1A68F81AC6C7FCECBC797F6B15C7211 /* Pods-SevenSegmentDisplay_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SevenSegmentDisplay_Tests/Pods-SevenSegmentDisplay_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SevenSegmentDisplay_Tests/Pods-SevenSegmentDisplay_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		54C11CC64D42EBBA2290584F3AC986C6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68AC655DB7F6438A0F167578D31F0631 /* SevenSegmentDisplay.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SevenSegmentDisplay/SevenSegmentDisplay-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SevenSegmentDisplay/SevenSegmentDisplay-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SevenSegmentDisplay/SevenSegmentDisplay.modulemap";
-				PRODUCT_MODULE_NAME = SevenSegmentDisplay;
-				PRODUCT_NAME = SevenSegmentDisplay;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		710F77587A3DE5D72E9B04DC6E327B69 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E706280784AF68F4385BB2BF5AE7593E /* SevenSegmentIndicator.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SevenSegmentIndicator/SevenSegmentIndicator-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SevenSegmentIndicator/SevenSegmentIndicator-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SevenSegmentIndicator/SevenSegmentIndicator.modulemap";
-				PRODUCT_MODULE_NAME = SevenSegmentIndicator;
-				PRODUCT_NAME = SevenSegmentIndicator;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6A60C368DEBEB9561BD81173521A5B96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6D418ACE42F3E8186DE4E13CA447FB8 /* Pods-SevenSegmentDisplay_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -861,86 +671,100 @@
 			};
 			name = Debug;
 		};
-		7F9F4FD4A2316D1B6D164F0516C8D3ED /* Release */ = {
+		85F39D31BD3FA422B27AE1A9160DFC9F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97D70CA9A862A3B7D09DD0C8D8208C0A /* Pods-SevenSegmentDisplay_Tests.release.xcconfig */;
+			baseConfigurationReference = 59E306972597196F8E336A0905006965 /* Pods-SevenSegmentDisplay_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SevenSegmentDisplay_Tests/Pods-SevenSegmentDisplay_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SevenSegmentDisplay_Tests/Pods-SevenSegmentDisplay_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C869A900E8C260677F11E785100614B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0D622ACE6041AE64F4861535B3CBE92 /* SevenSegmentIndicator.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SevenSegmentIndicator/SevenSegmentIndicator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SevenSegmentIndicator;
+				PRODUCT_NAME = SevenSegmentIndicator;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		9CB502AF6223204017E98FCBC4E87168 /* Release */ = {
+		E0947952BA45C79DB6EBC3415B057DA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2808F765121468F7238AAE5AD4C5F3FC /* Pods-SevenSegmentDisplay_Example.release.xcconfig */;
+			baseConfigurationReference = DB4506F66685275F50B787209F1DE9A5 /* Pods-SevenSegmentDisplay_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SevenSegmentDisplay_Example/Pods-SevenSegmentDisplay_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SevenSegmentDisplay_Example/Pods-SevenSegmentDisplay_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
+		};
+		E442BA79174707AFB700187F118186F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 173554147B27153F8230BD58180B602A /* SevenSegmentIndicator.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SevenSegmentIndicator/SevenSegmentIndicator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SevenSegmentIndicator;
+				PRODUCT_NAME = SevenSegmentIndicator;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		21C27586674D8DF8EA84DD2CC0BCCFC1 /* Build configuration list for PBXNativeTarget "Pods-SevenSegmentDisplay_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3A407BCB40D804113E57B9DAD95D8626 /* Debug */,
-				9CB502AF6223204017E98FCBC4E87168 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -950,29 +774,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		62ED94ADEDA8A236698164A486A104C2 /* Build configuration list for PBXNativeTarget "Pods-SevenSegmentDisplay_Tests" */ = {
+		6E1058918943A7A140A9969BD43B1D11 /* Build configuration list for PBXNativeTarget "Pods-SevenSegmentDisplay_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4C04D2234EE2E037407560547AC267C8 /* Debug */,
-				7F9F4FD4A2316D1B6D164F0516C8D3ED /* Release */,
+				85F39D31BD3FA422B27AE1A9160DFC9F /* Debug */,
+				6A60C368DEBEB9561BD81173521A5B96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CFD9CBA6097C3666313EA3019CA7FE0A /* Build configuration list for PBXNativeTarget "SevenSegmentDisplay" */ = {
+		750870A4957F8431435E595D3F69487A /* Build configuration list for PBXNativeTarget "SevenSegmentDisplay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54C11CC64D42EBBA2290584F3AC986C6 /* Debug */,
-				3C32B83BDFDFBA50F63B76EEBE2284FD /* Release */,
+				47FCD2C2F214C83F2AAB716903933959 /* Debug */,
+				18FE180FAD477E2B144B62941765C5F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F817224E4D3AD448AE26EBF85144A20A /* Build configuration list for PBXNativeTarget "SevenSegmentIndicator" */ = {
+		8B569BB511E863321CB6AEF93D39D852 /* Build configuration list for PBXNativeTarget "Pods-SevenSegmentDisplay_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33CCF52726FDDB85AD72F6E592F0A9D5 /* Debug */,
-				710F77587A3DE5D72E9B04DC6E327B69 /* Release */,
+				E0947952BA45C79DB6EBC3415B057DA1 /* Debug */,
+				5B1FB330269753E2BBD9EB4F994CE98C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDDF14BB5411F1C6DE0D0D0C1C7AB4E4 /* Build configuration list for PBXNativeTarget "SevenSegmentIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E442BA79174707AFB700187F118186F3 /* Debug */,
+				C869A900E8C260677F11E785100614B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
