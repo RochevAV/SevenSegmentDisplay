@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SevenSegmentDisplay'
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   s.summary          = 'Display for seven segment indicators'
 
 # This description is used to generate tags and improve search results.
