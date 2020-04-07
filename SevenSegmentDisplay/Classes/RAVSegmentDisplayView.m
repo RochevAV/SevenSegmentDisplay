@@ -70,7 +70,7 @@ const NSTimeInterval RAVSegmentDisplayAnimationDuraion = 0.2;
     _animationDuration = RAVSegmentDisplayAnimationDuraion;
 
     _countIndicators = 3;
-    _integerValue = 0;
+    _value = -1;
     
     _disableNullValue = YES;
     _off = NO;
@@ -115,11 +115,11 @@ const NSTimeInterval RAVSegmentDisplayAnimationDuraion = 0.2;
             value = value % 10;
         }
         
-        if (value == 0 && isOffIndicator && !obj.isOff) {
+        if (value == 0 && idx != 0 && isOffIndicator && !obj.isOff) {
             obj.off = YES;
-        } else if (value != 0){
+        } else if (value != 0) {
             isOffIndicator = NO;
-            if (obj.isOff) {
+            if (obj.isOff == YES) {
                 obj.off = NO;
             }
         }
@@ -133,6 +133,7 @@ const NSTimeInterval RAVSegmentDisplayAnimationDuraion = 0.2;
 - (void) setFloatValue:(CGFloat)floatValue {
     
     self.integerValue = round(10*floatValue);
+    self.value = floatValue;
     if (self.indicatorsMutable.count >= 2) {
         ((RAVSegmentIndicatorView *)self.indicatorsMutable[1]).one = YES;
     }
@@ -187,10 +188,6 @@ const NSTimeInterval RAVSegmentDisplayAnimationDuraion = 0.2;
     }];
 }
 
-#pragma mark - Private Methods
-
-
-
 #pragma mark - Public Methods
 
 - (void) clearAllIndicators{
@@ -207,6 +204,7 @@ const NSTimeInterval RAVSegmentDisplayAnimationDuraion = 0.2;
     }];    
 }
 
+#pragma mark - Private Methods
 
 #pragma mark - Draw Segment
 

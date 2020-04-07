@@ -7,8 +7,11 @@
 //
 
 #import "RAVViewController.h"
+#import <SevenSegmentDisplay/RAVSegmentDisplayView.h>
 
 @interface RAVViewController ()
+
+@property (weak, nonatomic) IBOutlet RAVSegmentDisplayView *displayView;
 
 @end
 
@@ -17,7 +20,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+    [self.displayView setIntegerValue: 0];
 }
 
 - (void)didReceiveMemoryWarning
