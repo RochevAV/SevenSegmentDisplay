@@ -61,7 +61,7 @@ const NSTimeInterval RAVSegmentDisplayAnimationDuraion = 0.2;
 - (void) setupValueDefault {
     
     // Colors Initialization
-    _colorDefault= [UIColor clearColor];
+    _colorDefault = [UIColor clearColor];
     _colorActive = [UIColor whiteColor];
     
     _typeFont = RAVSegmentIndicatorViewFontCondensed;
@@ -70,7 +70,6 @@ const NSTimeInterval RAVSegmentDisplayAnimationDuraion = 0.2;
     _animationDuration = RAVSegmentDisplayAnimationDuraion;
 
     _countIndicators = 3;
-    _value = -1;
     
     _disableNullValue = YES;
     _off = NO;
@@ -93,7 +92,7 @@ const NSTimeInterval RAVSegmentDisplayAnimationDuraion = 0.2;
 
 #pragma mark - Setters
 
-- (void) setIntegerValue:(NSInteger)integerValue{
+- (void) setIntegerValue:(NSInteger)integerValue {
     
     if (integerValue == (NSInteger)self.value) {
         _value = integerValue;

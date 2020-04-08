@@ -20,12 +20,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+//    [self.displayView setIntegerValue: 0];
+
 }
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    
-    [self.displayView setIntegerValue: 0];
+//    [self.displayView setIntegerValue: 0];
 }
 
 - (void)didReceiveMemoryWarning
